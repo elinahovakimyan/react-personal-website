@@ -1,0 +1,115 @@
+@import '~antd/dist/antd.css';
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Kalam|Kumar+One+Outline|Viga&display=swap');
+
+body {
+  margin: 0;
+  // font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+  //   "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+  //   sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: white;
+  text-align: center;
+  overflow-x: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #5c4a71;
+}
+
+.flex-row-center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-column-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-row-space-between {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-row-space-around {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.row {
+  width: 100%;
+}
+
+.contact-row {
+  display: flex;
+  align-items: center;
+}
+
+.small-col {
+  display: inline-flex;
+  width: 8%;
+}
+
+.col-4 {
+  display: inline-flex;
+  width: 25%;
+  padding: 20px;
+}
+
+.col-2 {
+  display: inline-grid;
+  width: 50%;
+  padding: 15px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .small-col {
+    width: 10%;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .small-col {
+    width: 13%;
+  }
+  
+  .col-4 {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .small-col {
+    width: 20%;
+  }
+
+  .col-4, .col-2 {
+    width: 100%;
+  }
+
+  .contact-row {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .small-col {
+    width: 25%;
+  }
+}

@@ -1,0 +1,48 @@
+.icon-with-text {
+  background: white;
+  border-radius: 50%;
+  width: 65px;
+  height: 65px;
+  margin: 10px 5px;
+  box-shadow: 1px 0px 7px #cfbfd4;
+
+  .icon {
+    width: 70%;
+    height: 70%;
+  }
+
+  h4 {
+    color: black !important;
+    text-align: center;
+  }
+
+}
+
+.icon-with-text{
+  animation: bounceShadow 1s infinite;
+}
+
+@keyframes bounceShadow {
+  0% {
+    box-shadow: 1px 0px 7px #cfbfd4;
+  }
+  50% {
+    box-shadow: 1px 5px 17px #cfbfd4;
+  }
+  100% {
+    box-shadow: 1px 0px 7px #cfbfd4;
+  }
+}
+
+.icon-with-text:hover{
+  animation: rotating 1s infinite;
+}
+
+@keyframes rotating {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
