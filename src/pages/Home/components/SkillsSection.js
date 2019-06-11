@@ -8,7 +8,7 @@ function SkillsSection() {
 
   return (
     <>
-      <h2 className="section-title">Large variety of skills</h2>
+      <h2 className="section-title skills-title">Large variety of skills</h2>
       <div className="row">
         {technologies.map(tech => (
           <div className="small-col" key={tech.title}>

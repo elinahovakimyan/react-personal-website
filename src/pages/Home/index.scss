@@ -23,6 +23,7 @@
 
   .my-advantages {
     margin-top: 8%;
+    padding: 0 8% 4% 8%;
 
     .animated-number {
       font-size: 40px;
@@ -48,6 +49,7 @@
 
     .reveal-truth {
       height: 20px;
+      margin-top: 70px;
   
       @keyframes fontbulger {
         0% {
@@ -84,10 +86,14 @@
   .section-title {
     font-size: 34px;
     border-bottom: 1px dashed #5c4a71;
-    margin: 10% 0 6% 0;
+    margin: 10% 0 4% 0;
     color: #5c4a71;
     padding: 20px;
     font-family: 'Viga', sans-serif;
+  }
+
+  .skills-title {
+    margin-top: 2%;
   }
 
   .blog-title-wrapper {
