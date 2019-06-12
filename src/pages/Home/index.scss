@@ -162,18 +162,48 @@
 
     .header {
       .welcome-name {
-        font-size: 45px;
+        font-size: 36px;
+        padding: 15px;
       }
 
       .position {
-        font-size: 35px;
+        font-size: 30px;
+      }
+
+      .main-expertise {
+        font-size: 18px;
       }
     }
+
+    .my-advantages {
+      padding: 5px;
+
+      .col-4 {
+        padding: 10px;
+      }
+
+      .animated-number {
+        font-size: 25px;
+      }
+
+      h3 {
+        font-size: 16px;
+      }
+
+      .reveal-truth {
+        margin-top: 40px;
+        margin-bottom: 30px;
+      }
+    }
+
     .open-source-img {
       max-width: 95%;
     }
 
     .call-to-action {
+      h3 {
+        font-size: 20px;
+      }
 
       .linkedin-link {
         margin: 0 auto;

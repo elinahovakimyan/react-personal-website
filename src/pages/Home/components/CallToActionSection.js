@@ -15,7 +15,7 @@ function CallToActionSection() {
           skills?
           <br />
           <br />
-          You just found her! 
+          You just found her! <br/>
           <span> I'd love to help </span>
           you with my skills and expertise to
           <span> find solutions </span>
@@ -30,7 +30,7 @@ function CallToActionSection() {
           So to 
           <span> contact me </span> 
           you can:
-          <span role="img" aria-label="point-down-emoji"> 👇 </span>
+          <span role="img" aria-label="point-down-emoji"> 👇</span>
         </h3>
 
         <div className="contact-row">

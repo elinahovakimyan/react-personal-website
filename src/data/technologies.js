@@ -5,7 +5,7 @@ const technologies = [
   },
   {
     logoSrc: 'https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png',
-    title: 'React',
+    title: 'React.js',
   },
   {
     logoSrc: 'https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg',
@@ -18,26 +18,6 @@ const technologies = [
   {
     logoSrc: 'https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-08-28/424668624724_3d9a8923cf9349adcb2c_230.png',
     title: 'Koa.js',
-  },
-  {
-    logoSrc: 'https://arcweb.co/wp-content/uploads/2016/10/react-logo-1000-transparent.png',
-    title: 'React Native',
-  },
-  {
-    logoSrc: 'https://avatars2.githubusercontent.com/u/29647600?s=400&v=4',
-    title: 'React Navigation',
-  },
-  {
-    logoSrc: 'https://seeklogo.com/images/E/expo-logo-01BB2BCFC3-seeklogo.com.png',
-    title: 'Expo',
-  },
-  {
-    logoSrc: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/1280px-Sass_Logo_Color.svg.png',
-    title: 'SASS',
-  },
-  {
-    logoSrc: 'https://appliedparticletechnology.com/wp-content/uploads/2016/03/less-logo.png',
-    title: 'LESS',
   },
   {
     logoSrc: 'https://cdn-images-1.medium.com/max/1600/1*WcRnU2ERqYHZBKBQ0zXCvg.png',
@@ -56,8 +36,40 @@ const technologies = [
     title: 'Mobx',
   },
   {
+    logoSrc: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/1280px-Sass_Logo_Color.svg.png',
+    title: 'SASS',
+  },
+  {
+    logoSrc: 'https://appliedparticletechnology.com/wp-content/uploads/2016/03/less-logo.png',
+    title: 'LESS',
+  },
+  {
+    logoSrc: 'https://arcweb.co/wp-content/uploads/2016/10/react-logo-1000-transparent.png',
+    title: 'React Native',
+  },
+  {
+    logoSrc: 'https://avatars2.githubusercontent.com/u/29647600?s=400&v=4',
+    title: 'React Navigation',
+  },
+  {
+    logoSrc: 'https://seeklogo.com/images/E/expo-logo-01BB2BCFC3-seeklogo.com.png',
+    title: 'Expo',
+  },
+  {
+    logoSrc: 'https://vuejs.org/images/logo.png',
+    title: 'Vue.js',
+  },
+  {
     logoSrc: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Electron_Software_Framework_Logo.svg/1200px-Electron_Software_Framework_Logo.svg.png',
     title: 'Electron',
+  },
+  {
+    logoSrc: 'https://www.shareicon.net/download/2016/08/01/639868_development.ico',
+    title: 'HTML5',
+  },
+  {
+    logoSrc: 'https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/121-css3-512.png',
+    title: 'CSS3',
   },
   {
     logoSrc: 'https://express-validator.github.io/img/logo.svg',
@@ -102,6 +114,10 @@ const technologies = [
   {
     logoSrc: 'https://cdn.freebiesupply.com/logos/large/2x/websocket-logo-png-transparent.png',
     title: 'Websocket',
+  },
+  {
+    logoSrc: 'https://cdn.worldvectorlogo.com/logos/socket-io.svg',
+    title: 'Socket.io',
   },
   {
     logoSrc: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Babel_Logo.svg/1280px-Babel_Logo.svg.png',
@@ -152,6 +168,10 @@ const technologies = [
     title: 'Auth0',
   },
   {
+    logoSrc: 'https://logrocket.com/blog/content/images/2018/10/Screen-Shot-2018-10-11-at-1.40.06-PM.png',
+    title: 'JSON Web Token',
+  },
+  {
     logoSrc: 'https://seeklogo.com/images/N/next-js-logo-7929BCD36F-seeklogo.com.png',
     title: 'Next.js',
   },
@@ -166,6 +186,10 @@ const technologies = [
   {
     logoSrc: 'https://sendgrid.com/wp-content/themes/sgdotcom/pages/resource/brand/2016/SendGrid-Logomark.png',
     title: 'Sendgrid',
+  },
+  {
+    logoSrc: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Elm_logo.svg/1200px-Elm_logo.svg.png',
+    title: 'Elm',
   },
   {
     logoSrc: 'https://cdn.freebiesupply.com/logos/large/2x/php-logo-png-transparent.png',
@@ -188,8 +212,12 @@ const technologies = [
     title: 'Ruby',
   },
   {
+    logoSrc: 'https://www.stickpng.com/assets/images/580b57fcd9996e24bc43c526.png',
+    title: 'Messenger Customer Chat',
+  },
+  {
     logoSrc: 'https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png',
-    title: 'git',
+    title: 'Git',
   },
   {
     logoSrc: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/GitLab_Logo.svg/1108px-GitLab_Logo.svg.png',
@@ -204,12 +232,24 @@ const technologies = [
     title: 'Bitbucket',
   },
   {
+    logoSrc: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/1280px-Amazon_Web_Services_Logo.svg.png',
+    title: 'AWS',
+  },
+  {
+    logoSrc: 'https://img.icons8.com/color/420/heroku.png',
+    title: 'Heroku',
+  },
+  {
     logoSrc: 'https://cdn.freebiesupply.com/logos/large/2x/visual-studio-code-logo-png-transparent.png',
     title: 'VSCode',
   },
   {
     logoSrc: 'https://cdn.freebiesupply.com/logos/large/2x/atom-4-logo-png-transparent.png',
     title: 'Atom',
+  },
+  {
+    logoSrc: 'https://www.sublimehq.com/images/sublime_text.png',
+    title: 'Sublime Text',
   },
   {
     logoSrc: 'https://applitools.com/blog/wp-content/uploads/2018/07/Jira-new-logo.png',
@@ -238,6 +278,14 @@ const technologies = [
   {
     logoSrc: 'https://cdn.freebiesupply.com/logos/large/2x/slack-logo-icon.png',
     title: 'Slack',
+  },
+  {
+    logoSrc: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Tux.png/220px-Tux.png',
+    title: 'Linux',
+  },
+  {
+    logoSrc: 'http://1.bp.blogspot.com/-bI-rVQGWouE/VBKLZnyxbqI/AAAAAAAAhY4/79NXGfXIxxo/s1600/MacOS-icon.png',
+    title: 'MacOS',
   },
 ]
 

@@ -19,7 +19,7 @@ class App extends React.PureComponent {
   componentDidMount() {
     this.timer = setTimeout(() => {
       this.setState({ isLoading: false })
-    }, 2500);
+    }, 3000);
   }
   
   componentDidUpdate() {
