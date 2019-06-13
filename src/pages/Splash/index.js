@@ -14,7 +14,7 @@ class SplashScreen extends React.PureComponent {
     return (
       <div className="splash-screen">
         <h2>
-          Looking for a developer?
+          Looking for a remote developer?
           <br/>
           Taking you to the right place...
         </h2>

@@ -1,13 +1,20 @@
 import React, { useState } from 'react';
-import { Button } from 'antd';
+import { Button, Icon } from 'antd';
 import TweenOne from 'rc-tween-one';
+import Texty from 'rc-texty';
 import Children from 'rc-tween-one/lib/plugin/ChildrenPlugin';
+
+import 'rc-texty/assets/index.css';
 
 TweenOne.plugins.push(Children);
 
+const profileText1 = 'Web & Mobile Software Developer with 3+ years of experience.'
+const profileText2 = 'Increased the code quality by 60%.'
+const profileText3 = 'Enthusiastic team player and creative thinker.'
+
+
 function NumbersSection() {
   const [isButtonVisible, updateButtonVisibility] = useState(true);
-  const [animation1, animate1] = useState(null);
   const [animation2, animate2] = useState(null);
   const [animation3, animate3] = useState(null);
   const [animation4, animate4] = useState(null);
@@ -16,9 +23,8 @@ function NumbersSection() {
   const startAnimation = () => {
     updateButtonVisibility(false);
 
-    animate1(getAnimationObject(242300)); // lines
     animate2(getAnimationObject(18620)); // hours
-    animate3(getAnimationObject(72340)); // users
+    animate3(getAnimationObject(82340)); // users
     animate4(getAnimationObject(17)); // projects
   }
 
@@ -36,42 +42,45 @@ function NumbersSection() {
   return (
     <div className="my-advantages">
 
-      <div className="row">
-        <div className="col-4 flex-column-center">
-          <TweenOne
-            animation={animation1}
-            className="animated-number"
-          >
-            0
-          </TweenOne>
-          <h3>lines of code written</h3>
-        </div>
-        <div className="col-4 flex-column-center">
+      <div className="flex-row-wrap">
+        <div className="flex-column-center number-info">
           <TweenOne
             animation={animation2}
             className="animated-number"
           >
             0
           </TweenOne>
-          <h3>hours of coding</h3>
+          <h3>
+            <Icon type="clock-circle" />
+            {' '}
+            hours
+          </h3>
         </div>
-        <div className="col-4 flex-column-center">
+        <div className="flex-column-center number-info">
           <TweenOne
             animation={animation3}
             className="animated-number"
           >
             0
           </TweenOne>
-          <h3>users served</h3>
+          <h3>
+            <Icon type="team" />
+            {' '}
+            users
+          </h3>
         </div>
-        <div className="col-4 flex-column-center">
+        <div className="flex-column-center number-info">
           <TweenOne
             animation={animation4}
             className="animated-number"
           >
             0
           </TweenOne>
-          <h3>projects contributed</h3>
+          <h3>
+            <Icon type="file-done" />
+            {' '}
+            projects
+          </h3>
         </div>
       </div>
 
@@ -85,7 +94,13 @@ function NumbersSection() {
             <span className="truth-support-emoji" role="img" aria-label="show-emoji"> 👈</span>
           </div>
         )
-        : null
+        : (
+          <>
+            <Texty className="animated-profile-text">{profileText1}</Texty>
+            <Texty className="animated-profile-text">{profileText2}</Texty>
+            <Texty className="animated-profile-text">{profileText3}</Texty>
+          </>
+        )
       }
 
     </div>

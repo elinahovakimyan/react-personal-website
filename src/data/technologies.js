@@ -72,12 +72,12 @@ const technologies = [
     title: 'CSS3',
   },
   {
-    logoSrc: 'https://express-validator.github.io/img/logo.svg',
-    title: 'Express Validator',
+    logoSrc: 'https://www.gatsbyjs.org/static/gatsby-icon-4a9773549091c227cd2eb82ccd9c5e3a.png',
+    title: 'Gatsby',
   },
   {
-    logoSrc: 'https://www.searchpng.com/wp-content/uploads/2019/02/Bootstrap-Logo-PNG-715x715.png',
-    title: 'Bootstrap',
+    logoSrc: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/GraphQL_Logo.svg/2000px-GraphQL_Logo.svg.png',
+    title: 'GraphQL',
   },
   {
     logoSrc: 'https://user-images.githubusercontent.com/6937879/51302792-61243b80-1a6e-11e9-958a-90fc50605f00.png',
@@ -88,12 +88,12 @@ const technologies = [
     title: 'Material UI',
   },
   {
-    logoSrc: 'https://www.gatsbyjs.org/static/gatsby-icon-4a9773549091c227cd2eb82ccd9c5e3a.png',
-    title: 'Gatsby',
+    logoSrc: 'https://express-validator.github.io/img/logo.svg',
+    title: 'Express Validator',
   },
   {
-    logoSrc: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/GraphQL_Logo.svg/2000px-GraphQL_Logo.svg.png',
-    title: 'GraphQL',
+    logoSrc: 'https://www.searchpng.com/wp-content/uploads/2019/02/Bootstrap-Logo-PNG-715x715.png',
+    title: 'Bootstrap',
   },
   {
     logoSrc: 'https://cdn.iconscout.com/icon/free/png-512/mongodb-4-1175139.png',
@@ -126,6 +126,10 @@ const technologies = [
   {
     logoSrc: 'https://raw.githubusercontent.com/webpack/media/master/logo/icon-square-big.png',
     title: 'Webpack',
+  },
+  {
+    logoSrc: 'http://www.tomsquest.com/img/posts/2018-10-02-better-npm-ing/npm_logo.png',
+    title: 'npm',
   },
   {
     logoSrc: 'https://camo.githubusercontent.com/5e511d0a0f2dcd66a843017402001844861979a4/68747470733a2f2f64323169693931693379366f36682e636c6f756466726f6e742e6e65742f67616c6c6572795f696d616765732f66726f6d5f70726f6f662f31303037342f6c617267652f313435353731343038312f747970657363726970742e706e67',
@@ -170,10 +174,6 @@ const technologies = [
   {
     logoSrc: 'https://logrocket.com/blog/content/images/2018/10/Screen-Shot-2018-10-11-at-1.40.06-PM.png',
     title: 'JSON Web Token',
-  },
-  {
-    logoSrc: 'https://seeklogo.com/images/N/next-js-logo-7929BCD36F-seeklogo.com.png',
-    title: 'Next.js',
   },
   {
     logoSrc: 'https://js.foundation/wp-content/uploads/sites/33/2017/02/jquery.png',
@@ -274,10 +274,6 @@ const technologies = [
   {
     logoSrc: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Adobe_XD_CC_icon.svg/615px-Adobe_XD_CC_icon.svg.png',
     title: 'Adobe XD',
-  },
-  {
-    logoSrc: 'https://cdn.freebiesupply.com/logos/large/2x/slack-logo-icon.png',
-    title: 'Slack',
   },
   {
     logoSrc: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Tux.png/220px-Tux.png',

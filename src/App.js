@@ -29,7 +29,7 @@ class App extends React.PureComponent {
   }
 
   initializeReactGA = () => {
-    ReactGA.initialize('UA-109245198-2');
+    ReactGA.initialize('UA-109245198-1');
   }
 
   render() {

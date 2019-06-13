@@ -1,44 +1,55 @@
 .home-container {
   background-color: white;
   color: #5c4a71;
-  margin: 3% 6%;
+  margin: 30px calc(3vw);
 
 
   .header {
 
     .welcome-name {
-      font-size: 70px;
+      font-size: calc(25px + 4vw);
       margin: 0;
       margin-top: 20px;
     }
   
     .position {
-      font-size: 40px;
+      font-size: calc(20px + 2vw);
     }
 
     .main-expertise {
-      font-size: 24px;
+      font-size: calc(14px + 1vw);
     }
   }
 
   .my-advantages {
-    margin-top: 8%;
-    padding: 0 8% 4% 8%;
+    margin-top: 60px;
+
+    .number-info {
+      width: 250px;
+      margin-bottom: 30px;
+
+      @media (max-width: 767px) { width: 180px; padding: 5px; }
+    }
 
     .animated-number {
-      font-size: 40px;
+      font-size: calc(20px + 1.5vw);
       font-family: 'Kumar One Outline', cursive;
       color: #a54c4c; 
       margin: 10px;
 
-      &::after {
+      &:after {
         content: '+';
       }
     }
 
+    .animated-profile-text {
+      font-size: calc(12px + 0.8vw);
+      padding: 10px 25px;
+    }
+
     h2 {
-      font-size: 32px;
-      margin: 10px;
+      font-size: calc(14px + 1.5vw);
+      margin: 5px;
       color: #a54c4c; 
     }
     
@@ -86,14 +97,10 @@
   .section-title {
     font-size: 34px;
     border-bottom: 1px dashed #5c4a71;
-    margin: 10% 0 4% 0;
+    margin: 100px 10px 20px;
     color: #5c4a71;
     padding: 20px;
     font-family: 'Viga', sans-serif;
-  }
-
-  .skills-title {
-    margin-top: 2%;
   }
 
   .blog-title-wrapper {
@@ -162,34 +169,11 @@
 
     .header {
       .welcome-name {
-        font-size: 36px;
         padding: 15px;
-      }
-
-      .position {
-        font-size: 30px;
-      }
-
-      .main-expertise {
-        font-size: 18px;
       }
     }
 
     .my-advantages {
-      padding: 5px;
-
-      .col-4 {
-        padding: 10px;
-      }
-
-      .animated-number {
-        font-size: 25px;
-      }
-
-      h3 {
-        font-size: 16px;
-      }
-
       .reveal-truth {
         margin-top: 40px;
         margin-bottom: 30px;
@@ -202,7 +186,8 @@
 
     .call-to-action {
       h3 {
-        font-size: 20px;
+        font-size: 16px;
+        font-size:calc(100% + 2vw);
       }
 
       .linkedin-link {
@@ -215,4 +200,28 @@
     }
 
   }
+}
+
+
+.row-grid-small {
+  margin: 40px auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+  grid-column-gap: 20px;
+
+  .skill-col {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+  }
+}
+
+.row-grid-mid {
+  margin: 40px auto;
+  display: grid;
+  grid-template-columns: repeat(1, minmax(100px, 1fr));
+  grid-column-gap: 15px;
+
+  @media (min-width: 355px) { grid-template-columns: repeat(2, minmax(100px, 1fr)); }
+  @media (min-width: 928px) { grid-template-columns: repeat(4, minmax(100px, 1fr)); }
 }

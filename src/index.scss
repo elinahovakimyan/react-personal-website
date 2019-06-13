@@ -51,6 +51,14 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
 }
 
+.flex-row-wrap {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
 
 .row {
   width: 100%;
@@ -61,59 +69,18 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
 }
 
-.small-col {
-  display: inline-flex;
-  width: 8%;
-}
-
-.col-4 {
-  display: inline-flex;
-  width: 25%;
-  padding: 20px;
-}
-
 .col-2 {
   display: inline-grid;
   width: 50%;
   padding: 15px;
 }
 
-@media only screen and (max-width: 1200px) {
-  .small-col {
-    width: 10%;
-  }
-}
-
-@media only screen and (max-width: 1000px) {
-  .small-col {
-    width: 13%;
-  }
-  
-  .col-4 {
-    width: 50%;
-  }
-}
-
 @media only screen and (max-width: 700px) {
-  .small-col {
-    width: 20%;
-  }
-
-  .col-4 {
-    width: 50%;
-  }
-
   .col-2 {
     width: 100%;
   }
 
   .contact-row {
     display: block;
-  }
-}
-
-@media only screen and (max-width: 500px) {
-  .small-col {
-    width: 25%;
   }
 }
