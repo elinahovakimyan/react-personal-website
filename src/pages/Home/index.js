@@ -32,9 +32,7 @@ class Home extends React.PureComponent {
 
         <NumbersSection />
 
-
         <SkillsSection />
-
 
         <BlogSection />
 

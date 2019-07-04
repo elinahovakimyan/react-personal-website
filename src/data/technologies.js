@@ -32,7 +32,7 @@ const technologies = [
     title: 'Redux-Saga',
   },
   {
-    logoSrc: 'https://cdn.freebiesupply.com/logos/thumbs/2x/mobx-logo.png',
+    logoSrc: 'https://avatars3.githubusercontent.com/u/17475736?s=400&v=4',
     title: 'Mobx',
   },
   {
@@ -64,7 +64,7 @@ const technologies = [
     title: 'Electron',
   },
   {
-    logoSrc: 'https://www.shareicon.net/download/2016/08/01/639868_development.ico',
+    logoSrc: 'data:image/png;base64,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',
     title: 'HTML5',
   },
   {
@@ -112,7 +112,7 @@ const technologies = [
     title: 'Postgressql',
   },
   {
-    logoSrc: 'https://cdn.freebiesupply.com/logos/large/2x/websocket-logo-png-transparent.png',
+    logoSrc: 'https://cdn.worldvectorlogo.com/logos/websocket.svg',
     title: 'Websocket',
   },
   {
@@ -192,7 +192,7 @@ const technologies = [
     title: 'Elm',
   },
   {
-    logoSrc: 'https://cdn.freebiesupply.com/logos/large/2x/php-logo-png-transparent.png',
+    logoSrc: 'https://pngimg.com/uploads/php/php_PNG50.png',
     title: 'PHP',
   },
   {
@@ -240,7 +240,7 @@ const technologies = [
     title: 'Heroku',
   },
   {
-    logoSrc: 'https://cdn.freebiesupply.com/logos/large/2x/visual-studio-code-logo-png-transparent.png',
+    logoSrc: 'https://user-images.githubusercontent.com/10379994/31985754-c56b8dba-b998-11e7-9705-a7f984433049.png',
     title: 'VSCode',
   },
   {

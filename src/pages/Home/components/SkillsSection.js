@@ -22,12 +22,14 @@ class SkillsSection extends React.PureComponent {
 
   updateVisibleSkills = () => {
     const { visibleSkills, screenWidth } = this.state;
+    console.log('visibleSkills :', visibleSkills);
+    console.log('window.innerWidth :', window.innerWidth);
 
     if (window.innerWidth !== screenWidth) {
       if (window.innerWidth >= 1256 && technologies.length !== visibleSkills.length) {
         this.setState({ visibleSkills: technologies });
       } else if (window.innerWidth > 767) {
-        this.setState({ visibleSkills: technologies.slice(0, 40) });
+        this.setState({ visibleSkills: technologies.slice(0, 39) });
       } else if (window.innerWidth > 615) {
         this.setState({ visibleSkills: technologies.slice(0, 35) });
       } else if (technologies.length === visibleSkills.length) {
