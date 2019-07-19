@@ -27,6 +27,7 @@ class Home extends React.PureComponent {
             Strengths: React.js, React Native, Node.js
             <span role="img" aria-label="strong-emoji"> 💪 </span>
           </h3>
+          <img src={require('../../assets/business-growth.png')} alt="Freelance developer - business growth" />
         </div>
 
 

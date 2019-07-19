@@ -144,7 +144,7 @@ const technologies = [
     title: 'Flow Typing',
   },
   {
-    logoSrc: 'https://eslint.org/img/favicon.512x512.png',
+    logoSrc: 'https://cdn.freebiesupply.com/logos/large/2x/eslint-logo-png-transparent.png',
     title: 'ESLint',
   },
   {

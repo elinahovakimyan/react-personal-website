@@ -1,0 +1,332 @@
+.freelancer-home-container {
+
+    // background: linear-gradient(120deg, #fe5f57, #fd8b54, #feba57);
+    // background: linear-gradient(120deg, #5bc7b0, #63b1d7, #6c9ef7);
+
+  .main-banner {
+    height: 600px;
+    background: url('../../assets/busy-work-day.jpg') no-repeat center/cover;
+    padding: 30px;
+
+    .main-banner-content {
+      max-width: 1140px;
+      margin: 0 auto;
+    }
+    
+    h1 {
+      color: #6c9ef7;
+      font-size: 22px;
+      margin: 10px;
+      float: right;
+  
+      span {
+        color: #fd8b54;
+      }
+    }
+    
+    h2 {
+      color: #5bc7b0;
+      font-size: 56px;
+      margin: 0 10px 15px;
+    }
+    
+    .chat-box {
+      background-color: white;
+      width: fit-content;
+      padding: 20px 30px;
+      border-radius: 8px;
+      position: relative;
+      box-shadow: 0px 8px 40px rgba(0, 0, 0, 0.18), 0px 0px 4px rgba(0, 0, 0, 0.18);
+      z-index: 3;
+
+      &.chat-box-arrow-left:before {
+        content: ' ';
+        position: absolute;
+        width: 0;
+        height: 0;
+        left: 30px;
+        right: auto;
+        top: auto;
+        bottom: -40px;
+        border: 30px solid;
+        border-color: transparent;
+        z-index: 2;
+      }
+
+      &.chat-box-arrow-left:after{
+        content: ' ';
+        position: absolute;
+        width: 0;
+        height: 0;
+        left: 48px;
+        right: auto;
+        top: auto;
+        bottom: -33px;
+        border: 22px solid;
+        z-index: 2;
+        border-color: white transparent transparent white;
+      }
+
+      &.chat-box-arrow-right:before {
+        content: ' ';
+        position: absolute;
+        width: 0;
+        height: 0;
+        left: auto;
+        right: -8px;
+        bottom: -40px;
+        border: 30px solid;
+        border-color: transparent;
+      }
+
+      &.chat-box-arrow-right:after{
+        content: ' ';
+        position: absolute;
+        width: 0;
+        height: 0;
+        left: auto;
+        right: 48px;
+        bottom: -33px;
+        border: 22px solid;
+        border-color: white white transparent transparent;
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+// previous home styles 
+.home-container {
+  background-color: white;
+  color: #5c4a71;
+  margin: 30px calc(3vw);
+  max-width: 1340px;
+  margin: 0 auto;
+
+  .header {
+
+    .welcome-name {
+      font-size: calc(25px + 4vw);
+      margin: 0;
+      margin-top: 20px;
+    }
+  
+    .position {
+      font-size: calc(16px + 2vw);
+    }
+
+    .main-expertise {
+      font-size: calc(13px + 1vw);
+    }
+  }
+
+  .my-advantages {
+    margin-top: 60px;
+
+    .number-info {
+      width: 250px;
+      margin-bottom: 30px;
+
+      @media (max-width: 767px) { width: 180px; padding: 5px; }
+    }
+
+    .animated-number {
+      font-size: calc(20px + 1.5vw);
+      font-family: 'Kumar One Outline', cursive;
+      color: #a54c4c; 
+      margin: 10px;
+
+      &:after {
+        content: '+';
+      }
+    }
+
+    .animated-profile-text {
+      font-size: calc(12px + 0.8vw);
+      padding: 10px 25px;
+    }
+
+    h2 {
+      font-size: calc(14px + 1.5vw);
+      margin: 5px;
+      color: #a54c4c; 
+    }
+    
+    h3 {
+      font-size: 26px;
+      color: #55b4cc; 
+    }
+
+    .reveal-truth {
+      height: 20px;
+      margin-top: 70px;
+  
+      @keyframes fontbulger {
+        0% {
+          font-size: 12px;
+        }
+        30% {
+          font-size: 17px;
+        }
+        40% {
+          font-size: 16px;
+        }
+        50% {
+          font-size: 14px;
+        }
+        60% {
+          font-size: 13px;
+        }
+        100% {
+          font-size: 12px;
+        }
+      }
+  
+      .animated-button {
+        animation: fontbulger 1s infinite;
+        color: #ff9800;
+      }
+  
+      .truth-support-emoji {
+        font-size: 20px;
+      }
+    }
+  }
+
+  .section-title {
+    font-size: 34px;
+    border-bottom: 1px dashed #5c4a71;
+    margin: 100px 10px 20px;
+    color: #5c4a71;
+    padding: 20px;
+    font-family: 'Viga', sans-serif;
+  }
+
+  .blog-title-wrapper {
+    width: 100%;
+    padding: 10px;
+
+    .blog-title {
+      color: #5c4a71;
+      font-size: 26px;
+      width: fit-content;
+      // font-family: 'Indie Flower', cursive;
+      font-family: 'Kalam', cursive;
+  
+      &::after {
+        content: ' 📘'
+      }
+    }
+  
+    .blog-title:hover {
+      text-decoration: underline;
+      color: #72b5c5; 
+  
+  
+      &::after {
+        content: ' 📖'
+      }
+    }
+  }
+
+  .open-source-img {
+    max-width: 60%;
+  }
+
+  .call-to-action {
+    padding: 0 6%;
+    margin-bottom: 80px;
+
+    h3 {
+      font-size: 24px;
+
+      span {
+        color: #fe5f57;
+      }
+    }
+
+    .email-section {
+      font-size: 20px;
+      text-align: left;
+    }
+
+    .linkedin-link { 
+      width: fit-content;
+      margin: 0 0 0 auto;
+    }
+  }
+
+  .contact-row {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .home-container {
+
+    .header {
+      .welcome-name {
+        padding: 15px;
+      }
+    }
+
+    .my-advantages {
+      .reveal-truth {
+        margin-top: 40px;
+        margin-bottom: 30px;
+      }
+    }
+
+    .open-source-img {
+      max-width: 95%;
+    }
+
+    .call-to-action {
+      h3 {
+        font-size: 16px;
+        font-size:calc(100% + 2vw);
+      }
+
+      .linkedin-link {
+        margin: 0 auto;
+      }
+    
+      .email-section {
+        text-align: center;
+      }
+    }
+
+  }
+}
+
+
+.row-grid-small {
+  margin: 40px auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+  grid-column-gap: 20px;
+
+  .skill-col {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+  }
+}
+
+.row-grid-mid {
+  margin: 40px auto;
+  display: grid;
+  grid-template-columns: repeat(1, minmax(100px, 1fr));
+  grid-column-gap: 15px;
+
+  @media (min-width: 355px) { grid-template-columns: repeat(2, minmax(100px, 1fr)); }
+  @media (min-width: 928px) { grid-template-columns: repeat(4, minmax(100px, 1fr)); }
+}

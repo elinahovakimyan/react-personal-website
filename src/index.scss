@@ -19,8 +19,12 @@ code {
     monospace;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  color: #5c4a71;
+// h1, h2, h3, h4, h5, h6 {
+//   color: #5c4a71;
+// }
+
+img {
+  max-width: 100%;
 }
 
 .flex-row-center {
