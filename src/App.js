@@ -1,6 +1,6 @@
 import React from 'react';
 
-import FreelancerHome from './pages/FreelancerHome';
+import Home from './pages/Home';
 import Splash from './pages/Splash';
 
 import './App.css';
@@ -14,7 +14,7 @@ class App extends React.PureComponent {
   componentDidMount() {
     this.timer = setTimeout(() => {
       this.setState({ isLoading: false })
-    }, 0);
+    }, 3000);
   }
   
   componentDidUpdate() {
@@ -29,7 +29,7 @@ class App extends React.PureComponent {
     return (
       <div style={isLoading ? { height: '100vh', overflow: 'hidden' } : null}>
         {isLoading ? <Splash /> : null}
-        <FreelancerHome />
+        <Home />
       </div>
     );
   }
