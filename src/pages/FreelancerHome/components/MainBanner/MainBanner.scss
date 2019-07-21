@@ -1,0 +1,86 @@
+.main-banner-container {
+
+    // background: linear-gradient(120deg, #fe5f57, #fd8b54, #feba57);
+    // background: linear-gradient(120deg, #5bc7b0, #63b1d7, #6c9ef7);
+
+  .main-banner {
+    height: 48%;
+    background: linear-gradient(210deg, #6c9ef7, #d4ecff) no-repeat center/cover;
+    padding: 40px 10px;
+
+    .main-banner-content {
+      max-width: 1140px;
+      margin: 0 auto;
+
+      h1 {
+        font-size: 24px;
+        margin: 10px 40px;
+        float: right;
+        animation-delay: 2s;
+        line-height: 33px;
+        color: #46b1b6 !important;
+        
+        @media (max-width: 768px) { margin: 30px 10px; font-size: 18px; }
+        @media (max-width: 340px) { font-size: 16px; }
+        
+        span {
+          color: #fd8b54;
+        }
+      }
+      
+      h2 {
+        font-size: 54px;
+        margin: 35px 10px;
+        animation-delay: 0.6s;
+        color: #6c9ef7;
+  
+        @media (max-width: 768px) { font-size: 30px; }
+        @media (max-width: 340px) { font-size: 24px; }
+      }
+
+      img {
+        width: 260px;
+        left: -60px;
+        top: -15px;
+        position: relative;
+
+        @media (max-width: 768px) { width: 200px; }
+      }
+    }
+  }
+   
+  .person-img {
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+    box-shadow: 0px 8px 40px rgba(0, 0, 0, 0.18), 0px 0px 4px rgba(0, 0, 0, 0.18);
+    background: white;
+    background: linear-gradient(120deg, #f9ca88, #ffa48b);
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin: -105px auto 0;
+    border: 3px solid white;
+
+    img {
+      border-radius: 48%;
+    }
+  }
+
+  .person-about {
+    margin: 25px 10px;
+    animation-delay: 2.5s;
+
+    h2 {
+      font-size: 40px;
+      font-family: 'Londrina Shadow', cursive;
+      color: #284069;
+    }
+
+    h3 {
+      font-size: 20px;
+      color: #517795;
+      margin-bottom: 20px;
+    }
+  }
+}

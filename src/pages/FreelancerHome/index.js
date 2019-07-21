@@ -1,9 +1,18 @@
+import './index.scss';
+
 import React from 'react';
 
-import './index.scss';
-import PortfolioSection from './components/PortfolioSection';
-import MainBanner from './components/MainBanner';
+import PortfolioSection from './components/PortfolioSection/PortfolioSection';
+import MainBanner from './components/MainBanner/MainBanner';
+import BlogSection from './components/BlogSection/BlogSection';
+import Recommendations from './components/Recommendations/Recommendations';
+import ContactSection from './components/ContactSection/ContactSection';
+import StepsSection from './components/StepsSection/StepsSection';
 
+
+// const Divider = () => (
+//   <div className="divider">...</div>
+// );
 
 function FreelancerHome() {
 
@@ -11,7 +20,21 @@ function FreelancerHome() {
       <div className="freelancer-home-container">
         <MainBanner />
 
-        <PortfolioSection />
+        <div className="gradient-background">
+          <div className="content-wrapper">
+            <Recommendations />
+
+            <BlogSection />
+
+            <PortfolioSection />
+
+            <StepsSection />
+
+            <ContactSection />
+          
+            {/* <div className="footer">Copyright</div> */}
+          </div>
+        </div>
 
       </div>
     )

@@ -1,0 +1,49 @@
+#blog {
+  color: #284069;
+  position: relative;
+
+  .chat-box {
+    float: right;
+  }
+
+  .blog-title-wrapper {
+    padding: 12px 20px;
+  
+    .blog-title {
+      color: white; 
+      font-size: 26px;
+      width: fit-content;
+      // font-family: 'Kalam', cursive;
+  
+      &::after {
+        content: ' 📘'
+      }
+    }
+  
+    .blog-title:hover {
+      text-decoration: underline;
+      color: #172338;
+  
+  
+      &::after {
+        content: ' 📖'
+      }
+    }
+  }
+
+  button {
+    margin-top: 15px;
+  }
+
+}
+
+.blog-section {
+  position: relative;
+
+  .bg-image {
+    position: absolute;
+    top: 38%;
+    left: 90px;
+    width: 180px;
+  }
+}

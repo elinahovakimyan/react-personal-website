@@ -1,0 +1,15 @@
+#portfolio {
+  color: white;
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    grid-gap: 20px;
+    justify-items: center;
+    justify-content: center;
+
+    @media (max-width: 1280px) { grid-template-columns: repeat(2, 400px); }
+    @media (max-width: 845px) { grid-template-columns: repeat(1, 400px); }
+    @media (max-width: 420px) { grid-template-columns: repeat(1, 300px); }
+  }
+}

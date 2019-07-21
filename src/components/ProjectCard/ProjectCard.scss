@@ -1,0 +1,70 @@
+.project-card {
+  height: 300px;
+  width: 400px;
+  background: white;
+  border-radius: 6px;
+  box-shadow: 0px 8px 40px rgba(0, 0, 0, 0.09), 0px 0px 4px rgba(0, 0, 0, 0.09);
+
+  @media (max-width: 420px) { width: 300px; height: 225px; }
+
+  .cover {
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 6px;
+    background-image: url('../../assets/projects/bitcoinbot.png');    
+  }
+
+  .content {
+    display: none;
+    margin-top: 15px;
+    position: relative;
+    color: rgba(0, 0, 0, 0.8);
+
+    h3 {
+      font-size: 20px;
+      margin: 3px;
+    
+      @media (max-width: 420px) { font-size: 16px; }
+    }
+
+    h4 {
+      margin: 10px;
+
+      @media (max-width: 420px) { font-size: 12px; }
+    }
+
+    .website-link {
+      position: absolute;
+      top: 0;
+      right: 15px;
+      height: 20px;
+      width: 20px;
+      background: linear-gradient(120deg, #8fdbdd, #65b4c9, #88abea);
+      padding: 5px;
+      border-radius: 50%;
+
+      @media (max-width: 420px) { height: 15px; width: 15px; }
+
+      img {
+        width: 18px;
+        height: 18px;
+
+        @media (max-width: 420px) { height: 13px; width: 13px; }
+      }
+    }
+  }
+
+  &:hover {
+    .cover {
+      height: 70%;
+      border-radius: 0;
+    }
+
+    .content {
+      display: block;
+    }
+  }
+}
