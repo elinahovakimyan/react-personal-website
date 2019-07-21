@@ -1,0 +1,35 @@
+#recommendations {
+  color: #284069;
+  
+  .recommendations-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 500px);
+    grid-gap: 50px;
+    justify-content: center;
+    
+    @media (max-width: 1140px) { grid-template-columns: repeat(2, 400px); }
+    @media (max-width: 900px) { grid-template-columns: repeat(1, 500px); }
+    @media (max-width: 550px) { grid-template-columns: repeat(1, 290px); }
+  
+    .recommendation-wrapper {
+      .recommendation-text {
+        font-size: 21.5px;
+        line-height: 30px;
+        letter-spacing: 0.8px;
+
+        @media (max-width: 768px) { font-size: 18px; }
+      }
+    
+      .recommendation-author {
+        margin: 10px;
+        font-size: 18px;
+        text-align: right;
+      }
+    
+      .recommendation-position {
+        font-size: 18px;
+        text-align: right;
+      }
+    }
+  }
+}

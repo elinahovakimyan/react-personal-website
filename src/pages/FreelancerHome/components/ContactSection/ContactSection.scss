@@ -1,0 +1,152 @@
+#contact {
+  color: white;
+  position: relative;
+
+  .section-title {
+    padding-bottom: 20px;
+  }
+
+  .contact-subtitle {
+    padding-bottom: 100px;
+    font-size: 20px;
+  }
+
+  .contact-form {
+    .row {
+      display: flex;
+      flex: 1;
+
+      @media (max-width: 550px) { flex-direction: column; }   
+
+      input {
+        flex: 1;
+        background: transparent;
+        border: 2px solid white;
+        outline: none;
+        padding: 15px;
+        box-shadow: 0px 0px 20px rgba(231, 153, 44, 0.3), 0px 0px 8px rgba(231, 153, 44, 0.3);   
+        margin: 20px;
+        border-radius: 10px;
+        font-size: 20px;
+        color: white;
+
+        &::placeholder {
+          color: rgba(255, 255, 255, 0.7);
+        }
+
+        &:active, &:focus {
+          box-shadow: 0px 0px 20px rgba(231, 153, 44, 0.7), 0px 0px 8px rgba(231, 153, 44, 0.7);   
+        }
+      }
+    }
+
+    textarea {
+      width: -webkit-fill-available;
+      background: transparent;
+      border: 2px solid white;
+      outline: none;
+      padding: 15px;
+      box-shadow: 0px 0px 20px rgba(231, 153, 44, 0.3), 0px 0px 8px rgba(231, 153, 44, 0.3);   
+      margin: 20px;
+      border-radius: 10px;
+      font-size: 20px;
+      color: white;
+      height: 120px;
+
+      &::placeholder {
+        color: rgba(255, 255, 255, 0.7);
+      }
+
+      &:active, &:focus {
+        box-shadow: 0px 0px 20px rgba(231, 153, 44, 0.7), 0px 0px 8px rgba(231, 153, 44, 0.7);   
+      }
+    }
+
+    button {
+      width: 220px;
+      padding: 15px;
+      font-size: 20px;
+      margin: 20px;
+    }
+  }
+}
+
+
+.contact-section  {
+  position: relative;
+
+  .bg-image {
+    position: absolute;
+    width: 15px;
+  }
+
+  .bg-image-1 {
+    top: 16%;
+    left: 20%;
+  }
+
+  .bg-image-2 {
+    top: 23%;
+    left: 80%;
+  }
+
+  .bg-image-3 {
+    top: 33%;
+    left: 46%;
+  }
+
+  .bg-image-4 {
+    top: 32%;
+    left: 75%;
+  }
+
+  .bg-image-5 {
+    top: 8%;
+    left: 80%;
+  }
+
+  .bg-image-6 {
+    top: 10%;
+    left: 50%;
+  }
+
+  .bg-image-7 {
+    top: 32%;
+    left: 20%;
+  }
+
+  .bg-image-8 {
+    top: 22%;
+    left: 28%;
+  }
+
+  .bg-image-9 {
+    top: 24%;
+    left: 13%;
+  }
+
+  .bg-image-10 {
+    top: 18%;
+    left: 5%;
+  }
+
+  .bg-image-11 {
+    top: 18%;
+    left: 90%;
+  }
+
+  .bg-image-12 {
+    top: 28%;
+    left: 95%;
+  }
+
+  .bg-image-13 {
+    top: 14%;
+    left: 70%;
+  }
+
+  .bg-image-14 {
+    top: 29%;
+    left: 5%;
+  }
+}

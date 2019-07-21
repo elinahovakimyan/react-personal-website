@@ -1,5 +1,5 @@
 import React from 'react';
-import { RingLoader } from 'react-spinners';
+import { RiseLoader } from 'react-spinners';
 
 import './index.scss';
 
@@ -13,16 +13,24 @@ class SplashScreen extends React.PureComponent {
   render() {
     return (
       <div className="splash-screen">
-        <h2>
-          Looking for a remote developer?
-          <br/>
-          Taking you to the right place...
-        </h2>
+        <h2>Want to have a great website or app?</h2>
 
-        <RingLoader
+        <RiseLoader
           sizeUnit={"px"}
-          size={180}
-          color={'#123abc'}
+          size={20}
+          color={'#5aa7dd'}
+          loading={this.state.loading}
+        />
+        <RiseLoader
+          sizeUnit={"px"}
+          size={20}
+          color={'#5aa7dd'}
+          loading={this.state.loading}
+        />
+        <RiseLoader
+          sizeUnit={"px"}
+          size={20}
+          color={'#5aa7dd'}
           loading={this.state.loading}
         />
       </div>

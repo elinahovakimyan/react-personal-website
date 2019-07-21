@@ -1,5 +1,4 @@
-@import '~antd/dist/antd.css';
-@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Kalam|Kumar+One+Outline|Viga&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Kalam|Kumar+One+Outline|Viga|Londrina+Shadow&display=swap');
 
 body {
   margin: 0;
@@ -20,7 +19,7 @@ code {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #5c4a71;
+  font-weight: 500;
 }
 
 img {
