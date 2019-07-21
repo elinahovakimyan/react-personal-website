@@ -11,7 +11,7 @@ function BlogSection() {
 
   return (
     <div className="blog-section section-wrapper">
-      <ScrollAnimation animateIn="slideInLeft" animateOnce={true}>
+      <ScrollAnimation animateIn="slideInLeft">
         <img className="bg-image" src={require('../../../../assets/contrast.svg')} alt="Sun" />
       </ScrollAnimation>
 

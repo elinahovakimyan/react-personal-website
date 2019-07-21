@@ -1,13 +1,12 @@
 import './MainBanner.scss';
 
 import React from 'react';
-import ScrollAnimation from 'react-animate-on-scroll';
 
 import Button from '../../../../components/Button/Button';
 
 
 const profileText1 = 'Experienced Web & Mobile Developer. Completed more than 18 projects.'
-const profileText2 = 'I develop responsive websites and cross-platform apps with passion and high quality!'
+const profileText2 = 'I develop responsive websites and cross-platform apps to help businesses impress faster!'
 
 function MainBanner() {
 
@@ -21,11 +20,9 @@ function MainBanner() {
         </div>
       </div>
 
-      <ScrollAnimation animateIn="flip" delay={1200} animateOnce={true}>
-        <div className="person-img">
-          <img src={require('../../../../assets/girl.svg')} alt="Freelance developer - Elina Hovakimyan" />
-        </div>
-      </ScrollAnimation>
+      <div className="person-img animated zoomIn">
+        <img src={require('../../../../assets/girl.svg')} alt="Freelance developer - Elina Hovakimyan" />
+      </div>
 
       <div className="person-about animated bounceIn">
         <h2>Elina Hovakimyan</h2>

@@ -1,10 +1,10 @@
 .main-banner-container {
-
+  min-height: 100vh;
     // background: linear-gradient(120deg, #fe5f57, #fd8b54, #feba57);
     // background: linear-gradient(120deg, #5bc7b0, #63b1d7, #6c9ef7);
 
   .main-banner {
-    height: 48%;
+    height: 430px;
     background: linear-gradient(210deg, #6c9ef7, #d4ecff) no-repeat center/cover;
     padding: 40px 10px;
 
@@ -16,7 +16,7 @@
         font-size: 24px;
         margin: 10px 40px;
         float: right;
-        animation-delay: 2s;
+        animation-delay: 4s;
         line-height: 33px;
         color: #46b1b6 !important;
         
@@ -31,7 +31,7 @@
       h2 {
         font-size: 54px;
         margin: 35px 10px;
-        animation-delay: 0.6s;
+        animation-delay: 2.6s;
         color: #6c9ef7;
   
         @media (max-width: 768px) { font-size: 30px; }
@@ -61,6 +61,7 @@
     justify-content: center;
     margin: -105px auto 0;
     border: 3px solid white;
+    animation-delay: 3.2s;
 
     img {
       border-radius: 48%;
@@ -69,7 +70,7 @@
 
   .person-about {
     margin: 25px 10px;
-    animation-delay: 2.5s;
+    animation-delay: 4.5s;
 
     h2 {
       font-size: 40px;

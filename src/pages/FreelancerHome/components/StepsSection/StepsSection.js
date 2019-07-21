@@ -31,7 +31,7 @@ function StepsSection() {
           <Step
             number={1}
             title="Business needs"
-            details="As a nice first step, let's discuss what needs your business has. Then, I will make suggestions on how I can help wou with that."
+            details="As an initial step, let's discuss what kind of needs your business has. Then, I will make suggestions on how I can help you with that."
           />
         </ScrollAnimation>
 

@@ -11,10 +11,10 @@ function PortfolioSection() {
   return (
     <div id="portfolio" className="section">
       <ScrollAnimation animateIn="bounceIn">
-        <h2 className="chat-box chat-box-arrow-left">It's good theory. What about the real work?</h2>
+        <h2 className="chat-box chat-box-arrow-left">It's impressive. What about the real work?</h2>
       </ScrollAnimation>
 
-      <h2 className="section-title">Just some of my projects</h2>
+      <h2 className="section-title">Few of my projects</h2>
       <div className="grid">
         <ScrollAnimation animateIn="flipInY" delay={200}>
           <ProjectCard 

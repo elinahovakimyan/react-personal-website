@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Home from './pages/Home';
+import FreelancerHome from './pages/FreelancerHome';
 import Splash from './pages/Splash';
 
 
@@ -27,7 +27,9 @@ class App extends React.PureComponent {
 
     return (
       <div style={isLoading ? { height: '100vh', overflow: 'hidden' } : null}>
-        {isLoading ? <Splash /> : <FreelancerHome />}
+        {isLoading ? <Splash /> : null}
+
+        <FreelancerHome />
       </div>
     );
   }
