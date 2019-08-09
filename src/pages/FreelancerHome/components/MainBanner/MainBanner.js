@@ -30,9 +30,15 @@ function MainBanner() {
         <h3>{profileText1}</h3>
         <h3>{profileText2}</h3>
 
-        <a href="#contact">
+        <a className="cta-btn" href="#contact">
           <Button>
             Contact me
+          </Button>
+        </a>
+
+        <a className="cta-btn" href="/Elina-Hovakimyan-Software-Engineer-CV.pdf" download>
+          <Button>
+            Download CV
           </Button>
         </a>
       </div>

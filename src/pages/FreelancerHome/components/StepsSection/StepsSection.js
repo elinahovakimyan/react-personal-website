@@ -22,7 +22,7 @@ function StepsSection() {
   return (
     <div id="steps" className="section">
       <ScrollAnimation animateIn="bounceIn" delay={100}>
-        <h2 className="chat-box chat-box-arrow-right">Hmm... How is it done?</h2>
+        <h2 className="chat-box chat-box-arrow-right">Hmm... What if I have a project for you?</h2>
       </ScrollAnimation>
 
       <h2 className="section-title">The working process</h2>
