@@ -41,4 +41,4 @@ function FreelancerHome() {
 }
 
 
-export default FreelancerHome;
+export default React.memo(FreelancerHome);

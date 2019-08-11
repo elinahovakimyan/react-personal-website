@@ -3,14 +3,14 @@ import './ProjectCard.scss';
 import React, { useState } from 'react';
 
 
-function ProjectCard({ name, title, technologies, link }) {
+function ProjectCard({ name, title, technologies, link, hasGif }) {
   const [isHovered, toggleHover] = useState(false);
   const bgImage = require(`../../assets/projects/${name}.png`);
-  const bgGif = require(`../../assets/projects/${name}.gif`);
+  const bgGif = hasGif ? require(`../../assets/projects/${name}.gif`) : null;
   
   return (
     <div className="project-card" onMouseEnter={() => toggleHover(true)} onMouseLeave={() => toggleHover(false)} onClick={() => toggleHover(true)}>
-      <div className="cover" style={{ backgroundImage: `url(${isHovered ? bgGif : bgImage})` }} />
+      <div className="cover" style={{ backgroundImage: `url(${(hasGif && isHovered) ? bgGif : bgImage})` }} />
       <div className="content">
         <h3>{title}</h3>
         <h4>Tech: {technologies}</h4>
@@ -23,4 +23,4 @@ function ProjectCard({ name, title, technologies, link }) {
   )
 }
 
-export default ProjectCard;
+export default React.memo(ProjectCard);

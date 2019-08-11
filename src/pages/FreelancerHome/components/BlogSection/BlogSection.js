@@ -7,7 +7,23 @@ import blogs from '../../../../data/blogs';
 import Button from '../../../../components/Button/Button';
 
 function BlogSection() {
-  const [visibleBlogs, updateVisibleBlogs] = useState(blogs.slice(0, 5))
+  const [visibleBlogs, updateVisibleBlogs] = useState(blogs.slice(0, 5));
+
+  const listBlogs = () => {
+    return visibleBlogs.map(blog => (
+      <div key={blog.title} className="blog-title-wrapper">
+        <a
+          href={blog.url}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="blog-title"
+        >
+          <span role="img" aria-label="show-emoji">👉 </span>
+          {blog.title}
+        </a>
+      </div>
+    ));
+  }
 
   return (
     <div className="blog-section section-wrapper">
@@ -24,19 +40,7 @@ function BlogSection() {
 
         <h2 className="section-title">Thoughts & knowledge shared</h2>
         <div>
-          {visibleBlogs.map(blog => (
-            <div key={blog.title} className="blog-title-wrapper">
-              <a
-                href={blog.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="blog-title"
-              >
-                <span role="img" aria-label="show-emoji">👉 </span>
-                {blog.title}
-              </a>
-            </div>
-          ))}
+          {listBlogs()}
 
           {visibleBlogs.length !== blogs.length
             ? <Button onClick={() => updateVisibleBlogs(blogs)}>See more</Button>
@@ -49,4 +53,4 @@ function BlogSection() {
 }
 
 
-export default BlogSection;
+export default React.memo(BlogSection);

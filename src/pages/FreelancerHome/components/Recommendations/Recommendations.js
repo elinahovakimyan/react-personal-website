@@ -8,6 +8,15 @@ import recommendations from '../../../../data/recommendations';
 
 
 function Recommendations() {
+  const listRecommendations = () => {
+    return recommendations.map(recommendation => (
+      <div key={recommendation.author} className="recommendation-wrapper">
+        <p className="recommendation-text">"{recommendation.text}"</p>
+        <p className="recommendation-author">{recommendation.author}</p>
+        <p className="recommendation-position">{recommendation.position}</p>
+      </div>
+    ));
+  }
 
   return (
     <div id="recommendations" className="section">
@@ -17,13 +26,7 @@ function Recommendations() {
 
       <h2 className="section-title">I'm recommended!</h2>
       <div className="recommendations-grid">
-        {recommendations.map(recommendation => (
-          <div key={recommendation.author} className="recommendation-wrapper">
-            <p className="recommendation-text">"{recommendation.text}"</p>
-            <p className="recommendation-author">{recommendation.author}</p>
-            <p className="recommendation-position">{recommendation.position}</p>
-          </div>
-        ))}
+        {listRecommendations()}
 
       </div>
 
@@ -32,4 +35,4 @@ function Recommendations() {
 }
 
 
-export default Recommendations;
+export default React.memo(Recommendations);

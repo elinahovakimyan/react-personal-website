@@ -66,4 +66,4 @@ function StepsSection() {
 }
 
 
-export default StepsSection;
+export default React.memo(StepsSection);

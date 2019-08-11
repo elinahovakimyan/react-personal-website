@@ -17,7 +17,8 @@ function PortfolioSection() {
       <h2 className="section-title">Few of my projects</h2>
       <div className="grid">
         <ScrollAnimation animateIn="flipInY" delay={200}>
-          <ProjectCard 
+          <ProjectCard
+            hasGif 
             name="bitcoinbot"
             title="Bitcoinbot Website"
             technologies="React.js, Redux, LESS"
@@ -26,7 +27,35 @@ function PortfolioSection() {
         </ScrollAnimation>
 
         <ScrollAnimation animateIn="flipInY" delay={200}>
-          <ProjectCard 
+          <ProjectCard
+            name="securitytrails"
+            title="Security Trails Website"
+            technologies="React.js, Redux, CSS"
+            link="https://securitytrails.com"
+          />
+        </ScrollAnimation>
+
+        <ScrollAnimation animateIn="flipInY" delay={200}>
+          <ProjectCard
+            name="hanseaticsoft"
+            title="Crewing Platform"
+            technologies="React.js, Redux, SCSS"
+            link="https://hanseaticsoft.com/cloud-crewing/crewing"
+          />
+        </ScrollAnimation>
+
+        <ScrollAnimation animateIn="flipInY" delay={200}>
+          <ProjectCard
+            name="react-recaptcha-google"
+            title="react-recaptcha-google"
+            technologies="Open-source project"
+            link="https://npmjs.com/package/react-recaptcha-google"
+          />
+        </ScrollAnimation>
+
+        <ScrollAnimation animateIn="flipInY" delay={200}>
+          <ProjectCard
+            hasGif 
             name="eventor"
             title="Eventor Website"
             technologies="React.js, Redux, SCSS"
@@ -35,7 +64,8 @@ function PortfolioSection() {
         </ScrollAnimation>
 
         <ScrollAnimation animateIn="flipInY" delay={200}>
-          <ProjectCard 
+          <ProjectCard
+            hasGif 
             name="codassist"
             title="Codassist Website"
             technologies="Wordpress"
@@ -44,7 +74,8 @@ function PortfolioSection() {
         </ScrollAnimation>
 
         <ScrollAnimation animateIn="flipInY" delay={200}>
-          <ProjectCard 
+          <ProjectCard
+            hasGif 
             name="tiamo"
             title="Tiamo Jewelry Website"
             technologies="Wordpress, Woocommerce"
@@ -53,7 +84,8 @@ function PortfolioSection() {
         </ScrollAnimation>
 
         <ScrollAnimation animateIn="flipInY" delay={200}>
-          <ProjectCard 
+          <ProjectCard
+            hasGif 
             name="patani"
             title="Patani App Android"
             technologies="React Native, React Navigation, Redux"
@@ -66,4 +98,4 @@ function PortfolioSection() {
 }
 
 
-export default PortfolioSection;
+export default React.memo(PortfolioSection);

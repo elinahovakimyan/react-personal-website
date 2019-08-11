@@ -99,4 +99,4 @@ function ContactSection() {
   )
 }
 
-export default ContactSection;
+export default React.memo(ContactSection);

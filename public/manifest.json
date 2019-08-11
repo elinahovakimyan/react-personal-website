@@ -1,9 +1,9 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Elina's personal website",
+  "name": "Web and Mobile Developer - Elina Hovakimyan",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "girl.png",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     }
