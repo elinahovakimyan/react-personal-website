@@ -19,6 +19,26 @@ function PortfolioSection() {
         <ScrollAnimation animateIn="flipInY" delay={200}>
           <ProjectCard
             hasGif 
+            name="zenapillar"
+            title="Zenapillar App"
+            technologies="React Native, Redux, Redux Sagas"
+            link="https://apps.apple.com/us/app/zenapillar/id1481114066"
+          />
+        </ScrollAnimation>
+
+        <ScrollAnimation animateIn="flipInY" delay={200}>
+          <ProjectCard
+            hasGif 
+            name="the_up"
+            title="THE U.P. Cross-platform App"
+            technologies="React Native, Redux, Redux Sagas"
+            link="https://apps.apple.com/us/app/the-u-p/id1483478217"
+          />
+        </ScrollAnimation>
+
+        <ScrollAnimation animateIn="flipInY" delay={200}>
+          <ProjectCard
+            hasGif 
             name="bitcoinbot"
             title="Bitcoinbot Website"
             technologies="React.js, Redux, LESS"
@@ -31,6 +51,24 @@ function PortfolioSection() {
             name="securitytrails"
             title="Security Trails Website"
             technologies="React.js, Redux, CSS"
+            link="https://securitytrails.com"
+          />
+        </ScrollAnimation>
+
+        <ScrollAnimation animateIn="flipInY" delay={200}>
+          <ProjectCard
+            name="react-native-month-picker"
+            title="react-native-month-picker"
+            technologies="Open-source project"
+            link="https://npmjs.com/package/react-native-month-picker"
+          />
+        </ScrollAnimation>
+
+        <ScrollAnimation animateIn="flipInY" delay={200}>
+          <ProjectCard
+            name="securitytrails"
+            title="Security Trails Website"
+            technologies="React Native, Redux, SCSS"
             link="https://securitytrails.com"
           />
         </ScrollAnimation>
