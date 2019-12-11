@@ -5,7 +5,7 @@ import React from 'react';
 import Button from '../../../../components/Button/Button';
 
 
-const profileText1 = 'Experienced Web & Mobile Developer. Completed more than 18 projects.'
+const profileText1 = 'Experienced Web & Mobile Developer. Completed more than 25 projects.'
 const profileText2 = 'I develop responsive websites and cross-platform apps to help businesses impress faster!'
 
 function MainBanner() {
