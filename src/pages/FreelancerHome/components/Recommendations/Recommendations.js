@@ -4,7 +4,6 @@ import React from 'react';
 import ScrollAnimation from 'react-animate-on-scroll';
 
 import recommendations from '../../../../data/recommendations';
-// import Button from '../../../../components/Button/Button';
 
 
 function Recommendations() {

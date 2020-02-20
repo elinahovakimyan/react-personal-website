@@ -64,7 +64,10 @@
     animation-delay: 3.2s;
 
     img {
-      border-radius: 48%;
+      border-radius: 50%;
+      width: 210px;
+      height: 210px;
+      resize: none;
     }
   }
 

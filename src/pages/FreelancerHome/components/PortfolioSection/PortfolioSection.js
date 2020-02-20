@@ -16,46 +16,67 @@ function PortfolioSection() {
 
       <h2 className="section-title">Few of my projects</h2>
       <div className="grid">
-        <ScrollAnimation animateIn="flipInY" delay={200}>
+        <ScrollAnimation animateIn="zoomIn" animateOut="zoomOut">
           <ProjectCard
-            hasGif 
+            name="prudost"
+            title="Goal Setting App"
+            technologies="React Native (iOS & Android), Django (backend)"
+          />
+        </ScrollAnimation>
+
+        <ScrollAnimation animateIn="zoomIn" animateOut="zoomOut">
+          <ProjectCard
             name="zenapillar"
-            title="Zenapillar App"
-            technologies="React Native, Redux, Redux Sagas"
+            title="Service Publishing App"
+            technologies="React Native (iOS & Android)"
             link="https://apps.apple.com/us/app/zenapillar/id1481114066"
           />
         </ScrollAnimation>
 
-        <ScrollAnimation animateIn="flipInY" delay={200}>
+        <ScrollAnimation animateIn="zoomIn" animateOut="zoomOut">
           <ProjectCard
-            hasGif 
+            name="prehab101"
+            title="Fitness App"
+            technologies="React Native (iOS & Android)"
+          />
+        </ScrollAnimation>
+
+        <ScrollAnimation animateIn="zoomIn" animateOut="zoomOut">
+          <ProjectCard
+            name="veratize"
+            title="Property Access App"
+            technologies="React Native (iOS & Android)"
+          />
+        </ScrollAnimation>
+
+        <ScrollAnimation animateIn="zoomIn" animateOut="zoomOut">
+          <ProjectCard
+            name="master8lc"
+            title="Bar Reservation App"
+            technologies="React Native (iOS & Android)"
+            link="https://apps.apple.com/us/app/id1479139549"
+          />
+        </ScrollAnimation>
+
+        <ScrollAnimation animateIn="zoomIn" animateOut="zoomOut">
+          <ProjectCard
             name="the_up"
-            title="THE U.P. Cross-platform App"
-            technologies="React Native, Redux, Redux Sagas"
-            link="https://apps.apple.com/us/app/the-u-p/id1483478217"
+            title="Social Platform"
+            technologies="React Native (iOS & Android)"
+            link="https://apps.apple.com/us/app/the-up/id1483478217"
           />
         </ScrollAnimation>
 
-        <ScrollAnimation animateIn="flipInY" delay={200}>
+        <ScrollAnimation animateIn="zoomIn" animateOut="zoomOut">
           <ProjectCard
-            hasGif 
-            name="bitcoinbot"
-            title="Bitcoinbot Website"
-            technologies="React.js, Redux, LESS"
-            link="https://bitcoinbot.pro"
+            name="patani"
+            title="Educational App for Kids"
+            technologies="React Native (Android)"
+            // link="https://play.google.com/store/apps/details?id=com.ngo.pataniapp"
           />
         </ScrollAnimation>
 
-        <ScrollAnimation animateIn="flipInY" delay={200}>
-          <ProjectCard
-            name="securitytrails"
-            title="Security Trails Website"
-            technologies="React.js, Redux, CSS"
-            link="https://securitytrails.com"
-          />
-        </ScrollAnimation>
-
-        <ScrollAnimation animateIn="flipInY" delay={200}>
+        <ScrollAnimation animateIn="zoomIn" animateOut="zoomOut">
           <ProjectCard
             name="react-native-month-picker"
             title="react-native-month-picker"
@@ -64,70 +85,12 @@ function PortfolioSection() {
           />
         </ScrollAnimation>
 
-        <ScrollAnimation animateIn="flipInY" delay={200}>
-          <ProjectCard
-            name="securitytrails"
-            title="Security Trails Website"
-            technologies="React Native, Redux, SCSS"
-            link="https://securitytrails.com"
-          />
-        </ScrollAnimation>
-
-        <ScrollAnimation animateIn="flipInY" delay={200}>
-          <ProjectCard
-            name="hanseaticsoft"
-            title="Crewing Platform"
-            technologies="React.js, Redux, SCSS"
-            link="https://hanseaticsoft.com/cloud-crewing/crewing"
-          />
-        </ScrollAnimation>
-
-        <ScrollAnimation animateIn="flipInY" delay={200}>
+        <ScrollAnimation animateIn="zoomIn" animateOut="zoomOut">
           <ProjectCard
             name="react-recaptcha-google"
             title="react-recaptcha-google"
             technologies="Open-source project"
             link="https://npmjs.com/package/react-recaptcha-google"
-          />
-        </ScrollAnimation>
-
-        <ScrollAnimation animateIn="flipInY" delay={200}>
-          <ProjectCard
-            hasGif 
-            name="eventor"
-            title="Eventor Website"
-            technologies="React.js, Redux, SCSS"
-            link="https://eventor.am"
-          />
-        </ScrollAnimation>
-
-        <ScrollAnimation animateIn="flipInY" delay={200}>
-          <ProjectCard
-            hasGif 
-            name="codassist"
-            title="Codassist Website"
-            technologies="Wordpress"
-            link="https://codassist.com"
-          />
-        </ScrollAnimation>
-
-        <ScrollAnimation animateIn="flipInY" delay={200}>
-          <ProjectCard
-            hasGif 
-            name="tiamo"
-            title="Tiamo Jewelry Website"
-            technologies="Wordpress, Woocommerce"
-            link="https://tiamo-jewelry.com"
-          />
-        </ScrollAnimation>
-
-        <ScrollAnimation animateIn="flipInY" delay={200}>
-          <ProjectCard
-            hasGif 
-            name="patani"
-            title="Patani App Android"
-            technologies="React Native, React Navigation, Redux"
-            link="https://play.google.com/store/apps/details?id=com.ngo.pataniapp"
           />
         </ScrollAnimation>
       </div>

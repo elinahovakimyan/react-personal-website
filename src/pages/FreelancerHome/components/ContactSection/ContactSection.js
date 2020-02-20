@@ -74,11 +74,11 @@ function ContactSection() {
 
       <div id="contact" className="section">
         <ScrollAnimation animateIn="bounceIn">
-          <h2 className="chat-box chat-box-arrow-left">Awesome! I need a greater website/app!</h2>
+          <h2 className="chat-box chat-box-arrow-left">Awesome! I need a great app!</h2>
         </ScrollAnimation>
 
         <h2 className="section-title">Let's discuss</h2>
-        <h3 className="contact-subtitle">I am currently available for remote work.</h3>
+        <h3 className="contact-subtitle">I am currently available for new projects.</h3>
         <div className="contact-form">
           <div className="row">
             <input placeholder="Name *" value={values['name']} onChange={(e) => handleChange(e.target.value, 'name')} />
