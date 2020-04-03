@@ -5,8 +5,8 @@ import React from 'react';
 import Button from '../../../../components/Button/Button';
 
 
-const profileText1 = 'Experienced Mobile App Developer. Built more than 25 awesome apps.'
-const profileText2 = 'I develop cross-platform apps (iOS and Android) to help you achieve your business goals!'
+const profileText1 = 'Experienced Web & Mobile App Developer. Built more than 40 awesome apps and websites.'
+const profileText2 = 'I develop cross-platform apps (iOS and Android) and responseive websites to help you achieve your business goals!'
 
 function MainBanner() {
 
@@ -21,7 +21,7 @@ function MainBanner() {
       </div>
 
       <div className="person-img animated zoomIn">
-        <img src={require('../../../../assets/me.jpg')} alt="Freelance developer - Elina Hovakimyan" />
+        <img src={require('../../../../assets/girl.svg')} alt="Freelance developer - Elina Hovakimyan" />
       </div>
 
       <div className="person-about animated bounceIn">
@@ -32,7 +32,7 @@ function MainBanner() {
 
         <a className="cta-btn" href="#contact">
           <Button>
-            Get a Quote
+            Contact me!
           </Button>
         </a>
 

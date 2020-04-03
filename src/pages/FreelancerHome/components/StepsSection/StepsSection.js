@@ -47,7 +47,7 @@ function StepsSection() {
           <Step
             number={3}
             title="Project Review"
-            details="Based on our agreement, I will either design the app or build it based on existing mockups and present it for your review."
+            details="Based on our agreement, I will either design the app/website or build it based on existing mockups and present it for your review."
           />
         </ScrollAnimation>
 
@@ -55,7 +55,7 @@ function StepsSection() {
           <Step
             number={4}
             title="Final Delivery"
-            details="After getting review notes, I will finetune the app to make it perfect and deploy to the app stores (App Store and/or Google Play)!"
+            details="After getting review notes, I will finetune the app to make it perfect and deploy to the app stores or make it live!"
           />
         </ScrollAnimation>
 

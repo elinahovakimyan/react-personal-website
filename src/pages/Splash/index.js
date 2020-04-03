@@ -13,7 +13,7 @@ class SplashScreen extends React.PureComponent {
   render() {
     return (
       <div className="splash-screen">
-        <h2>Looking for a mobile app developer?</h2>
+        <h2>Looking for a Web & Mobile Developer?</h2>
 
         <RiseLoader
           sizeUnit={"px"}
