@@ -54,7 +54,7 @@ function ContactSection() {
 
   return (
     <div className="contact-section section-wrapper">
-      <ScrollAnimation animateIn="fadeIn" delay={500} animateOnce={true}>
+      <ScrollAnimation animateIn="fadeIn" delay={400} animateOnce={true}>
         <img className="bg-image bg-image-1" src={require('../../../../assets/star.svg')} alt="Star" />
         <img className="bg-image bg-image-2" src={require('../../../../assets/star.svg')} alt="Star" />
         <img className="bg-image bg-image-3" src={require('../../../../assets/star.svg')} alt="Star" />
