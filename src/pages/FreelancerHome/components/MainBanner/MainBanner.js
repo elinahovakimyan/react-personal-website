@@ -6,7 +6,7 @@ import Button from '../../../../components/Button/Button';
 
 
 const profileText1 = 'Experienced Web & Mobile App Developer. Built more than 40 awesome apps and websites.'
-const profileText2 = 'I develop cross-platform apps (iOS and Android) and responseive websites to help you achieve your business goals!'
+const profileText2 = 'I develop cross-platform apps (iOS and Android) and responsive websites to help you achieve your business goals!'
 
 function MainBanner() {
 
